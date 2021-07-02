@@ -20,12 +20,11 @@ exports.appSecret = process.env.APP_QW_SECRET_TEXT || ""; // Texto secreto de la
 // /*******************************************************************************************************/
 // // Variables de la Base de Datos //
 // /*******************************************************************************************************/
-exports.dbHost = process.env.APP_QW_DB_HOST || ""; // Host de la base de datos
-exports.dbDriver = process.env.APP_QW_DB_DRIV || ""; // Driver de la base de datos
-exports.dbPort = process.env.APP_QW_DB_PORT || 5432; // Puerto de la base de datos
-exports.dbName = process.env.APP_QW_DB_NAME || ""; // Nombre de la base de datos
-exports.dbUser = process.env.APP_QW_DB_USER || ""; // Usuario de la base de datos
-exports.dbPwd = process.env.APP_QW_DB_PWD || ""; // Contraseña de la base de datos
+exports.dbHost = process.env.APP_QW_DB_HOST || process.env.APP_QW_DB_HOSTTOW; // Host de la base de datos
+exports.dbPort = process.env.APP_QW_DB_PORT || process.env.APP_QW_DB_PORTTOW; // Puerto de la base de datos
+exports.dbName = process.env.APP_QW_DB_NAME || process.env.APP_QW_DB_NAMETOW; // Nombre de la base de datos
+exports.dbUser = process.env.APP_QW_DB_USER || process.env.APP_QW_DB_USERTOW; // Usuario de la base de datos
+exports.dbPwd = process.env.APP_QW_DB_PWD || process.env.APP_QW_DB_TOW; // Contraseña de la base de datos
 // /*******************************************************************************************************/
 // // otras variables //
 // /*******************************************************************************************************/
