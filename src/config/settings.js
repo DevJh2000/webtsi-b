@@ -14,7 +14,7 @@ dotenv.config();
 exports.appHost = process.env.APP_QW_HOST || ""; // Host de la Aplicación
 exports.appNombre = process.env.APP_QW_NAME || ""; // Nombre de la aplicación
 exports.appAutor = process.env.APP_QW_AUTHOR || ""; // Autor de la aplicación
-exports.appPort = process.env.APP_QW_PORT || 3000; // Puerto de la aplicación
+exports.appPort = process.env.PORT || process.env.APP_QW_PORT; // Puerto de la aplicación
 exports.appSecret = process.env.APP_QW_SECRET_TEXT || ""; // Texto secreto de la aplicación
 
 // /*******************************************************************************************************/
