@@ -10,7 +10,7 @@
 },
   "scripts": {
     "clean": "rimraf dist",
-    "start": "node dist/app.js",
+    "start": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
