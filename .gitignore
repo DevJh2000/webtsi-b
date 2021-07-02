@@ -1,0 +1,12 @@
+# Dependencias
+node_modules
+
+# Carpetas código compilado
+dist
+build
+
+# Variables de entorno
+#.env
+
+# Configuraciones de VSCode
+#.vscode
