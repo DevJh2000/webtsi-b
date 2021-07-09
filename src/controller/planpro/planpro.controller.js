@@ -24,7 +24,7 @@ exports.createPlanPro = async (req, res) => {
     console.log(e);
     return res
       .status(500)
-      .json({ message: "Error Server, check the controller" });
+      .json({ message: "Error Server, check the controller", err: e });
   }
 };
 
